@@ -1,0 +1,108 @@
+.profile {
+  background-color: white;
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+}
+.MuiTypography-root.name.MuiTypography-body1 {
+  color: #5a5a5a;
+}
+
+.profile_name {
+  line-height: 18px;
+  padding: 20px;
+}
+
+.profile_name .name {
+  text-transform: uppercase;
+  font-size: 17px;
+
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.profile_name .title {
+  font-size: 13px;
+  color: rgb(145, 145, 145);
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.profile_image {
+  margin-top: -10px;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  margin-left: 10%;
+}
+
+.profile_image img {
+  width: 80%;
+  border-radius: 50px !important;
+}
+
+/* Information */
+.profile_information {
+  top: 0;
+  left: 0;
+  margin: -40px 10px 30px;
+}
+
+.profile_information .timeline .timeline_content {
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.timelineItem_text {
+  font-size: 13.5px !important;
+  color: #787878 !important;
+  font-weight: 400 !important;
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.timelineItem_text > a {
+  text-decoration: none;
+  color: #787878 !important;
+}
+
+.timelineItem_text > span {
+  font-size: 13.5px;
+  color: black;
+  font-weight: 500;
+}
+
+.profile .button_container {
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Cv Download */
+.cvdownload {
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: var(--main-color);
+  font-size: 14px !important;
+  color: black;
+  height: 40px;
+  width: 140px;
+  align-items: center;
+  text-align: center;
+  padding-top: 9px;
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.cvdownload:hover {
+  color: white;
+  background-color: #777;
+  transition: 300ms;
+}
+
+.timelineItem_text > a:hover {
+  color: var(--main-color) !important;
+}
+
+.MuiTimelineDot-root {
+  margin-top: 10px !important;
+}
